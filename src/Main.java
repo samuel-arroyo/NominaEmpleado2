@@ -22,13 +22,9 @@ public class Main {
         System.out.print("Pago por hora: ");
         double pagoPorHora = entrada.nextDouble();
 
+        // Creamos un objeto Nomina usando el constructor
+
         Nomina nominaEmpleado = new Nomina(clave, nombre, horasTrabajadas, pagoPorHora);
-
-
-
-    }
-
-
 
 
 }
